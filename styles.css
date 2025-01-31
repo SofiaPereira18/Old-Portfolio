@@ -1,0 +1,116 @@
+body {
+    font-family: Lato;
+    color: white;
+    font-size: 16px;
+    margin-left: 70px;
+    padding: 0;
+    background: #0a192f; 
+}
+
+header {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+}   
+
+a {
+    text-decoration: none; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+/*      Classes     */
+
+.main {
+    margin-bottom: 80px;
+}
+
+.number {
+    color: aqua;
+}
+
+.presenting-text {
+    color: white;
+    margin-bottom: 25px;
+}
+ 
+.rectangle {
+    color: #00ffff;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+    background-color: #122B39;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.date {
+    font-weight: bold;
+    color: #B0B0B0;
+}
+
+.details {
+    text-align: left;
+}
+
+
+.title {
+    margin-top: 60px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 30px;
+    color: #F8F9F9;
+}
+
+
+.text1 {
+    font-size: 22px;
+}
+
+.text2 {
+    font-size: 20px;
+}
+
+.text3 {
+    font-size: 18px;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    flex: 1; /* Ajusta as colunas para ocuparem o espaço disponível igualmente */
+    padding: 10px;
+    box-sizing: border-box; /* Inclui o padding e border no cálculo da largura */
+}
+
+
+
+/*       ID's        */
+
+#name {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+#career {
+    font-size: 25px;
+}
+
+
+
+#copy-text {
+    text-decoration: underline; 
+}
